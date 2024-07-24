@@ -1,0 +1,6 @@
+@CoVision.Base_HostAddress = http://localhost:5251
+
+GET {{CoVision.Base_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

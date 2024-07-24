@@ -1,0 +1,118 @@
+{
+  "items": [
+    {
+      "id": "01",
+      "title": "کاربران و دسترسی ها",
+      "area": "UserIdentitied",
+      "controller": "",
+      "action": "",
+      "route": "",
+      "showInMenu": true,
+      "hasPermissionType": false,
+      "order": 0,
+      "icon": "",
+      "items": [
+        {
+          "id": "01",
+          "title": "کاربران پشتیبان",
+          "area": "UserIdentitied",
+          "controller": "User",
+          "action": "GetList",
+          "route": "",
+          "showInMenu": true,
+          "hasPermissionType": false,
+          "order": 0,
+          "icon": "",
+          "items": [
+            {
+              "id": "01",
+              "title": "درج",
+              "area": "UserIdentitied",
+              "controller": "User",
+              "action": "Add",
+              "route": "",
+              "showInMenu": false,
+              "order": 0,
+              "icon": "",
+              "hasPermissionType": false
+            },
+            {
+              "id": "02",
+              "title": "ویرایش",
+              "area": "UserIdentitied",
+              "controller": "User",
+              "action": "Update",
+              "route": "",
+              "showInMenu": false,
+              "order": 0,
+              "icon": "",
+              "hasPermissionType": false
+            },
+            {
+              "id": "03",
+              "title": "حذف",
+              "area": "UserIdentitied",
+              "controller": "User",
+              "action": "Delete",
+              "route": "",
+              "showInMenu": false,
+              "order": 0,
+              "icon": "",
+              "hasPermissionType": false
+            }
+          ]
+        },
+        {
+          "id": "02",
+          "title": "نقش ها",
+          "area": "UserIdentitied",
+          "controller": "Role",
+          "action": "GetList",
+          "route": "",
+          "showInMenu": true,
+          "hasPermissionType": false,
+          "order": 0,
+          "icon": "",
+          "items": [
+            {
+              "id": "01",
+              "title": "درج",
+              "area": "UserIdentitied",
+              "controller": "Role",
+              "action": "Add",
+              "route": "",
+              "showInMenu": false,
+              "order": 0,
+              "icon": "",
+              "hasPermissionType": false
+            },
+            {
+              "id": "02",
+              "title": "ویرایش",
+              "area": "UserIdentitied",
+              "controller": "Role",
+              "action": "Update",
+              "route": "",
+              "showInMenu": false,
+              "order": 0,
+              "icon": "",
+              "hasPermissionType": false
+            },
+            {
+              "id": "03",
+              "title": "حذف",
+              "area": "UserIdentitied",
+              "controller": "Role",
+              "action": "Delete",
+              "route": "",
+              "showInMenu": false,
+              "order": 0,
+              "icon": "",
+              "hasPermissionType": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
