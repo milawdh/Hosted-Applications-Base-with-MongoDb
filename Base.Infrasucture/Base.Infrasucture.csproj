@@ -7,9 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CoVision.Contract\Base.Contract.csproj" />
-    <ProjectReference Include="..\CoVision.Domain.Shared\Base.Domain.Shared.csproj" />
-    <ProjectReference Include="..\CoVision.Domain\Base.Domain.csproj" />
+    <ProjectReference Include="..\Base.Contract\Base.Contract.csproj" />
+    <ProjectReference Include="..\Base.Domain.Shared\Base.Domain.Shared.csproj" />
+    <ProjectReference Include="..\Base.Domain\Base.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
